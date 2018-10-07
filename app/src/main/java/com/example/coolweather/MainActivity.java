@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
             finish();
             //时间设置为当前时间，不要一键返回，在标题栏上在加入一个返回按钮
+            //系统自带返回按钮要先判断，如果在县和国的界面就直接返回，如果在市的界面则返回到国这个层次
         }
     }
 }
